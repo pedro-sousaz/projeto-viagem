@@ -204,7 +204,7 @@ form > input[type=submit] {
     margin: auto;
     position: relative;
     margin-top: 10px;
-    display: inline-block;
+    display: block;
 }
 
 .image p{
@@ -223,9 +223,9 @@ form > input[type=submit] {
 }
 
 #ocean{
+    display: block;
     margin: auto;
-    max-width: 90vw;
-    height: 200px;
+    text-align: center;
 }
 
 #round{
@@ -259,18 +259,19 @@ form > input[type=submit] {
 }
 
 #montanha{
+    display: block;
     margin: auto;
-    max-width: 90vw;
-    height: 200px;
+    text-align: center;
 }
 
 .cinza{
     position: relative;
     margin: auto;
     justify-content: center;
-    height: 400px;
+    height: 460px;
     width: 90vw;
     background-color: gray;
+    display: block;
 }
 
 .cinza p{
@@ -314,7 +315,7 @@ form > input[type=submit] {
     bottom: 0;
     margin-bottom: 25px;
     height: 57px;
-    width: 130px;
+    width: 145px;
     font-size: 1.3em;
     cursor: pointer;
     transition: .3s;
