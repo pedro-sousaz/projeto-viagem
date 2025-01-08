@@ -98,6 +98,7 @@
     main h1{
         font-family: var(--fonte-sans);
     }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1992px) {
