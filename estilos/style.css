@@ -343,6 +343,8 @@ form > input[type=submit] {
 
 .icones{
     text-align: center;
+    margin: auto;
+    align-items: center;
 }
 
 .icones h1{
@@ -351,9 +353,8 @@ form > input[type=submit] {
 }
 
 .sociais{
-    display: flex;
-    justify-content: center;
-    gap: 16px;
+    margin: auto;
+    display: block;
     margin-bottom: 40px;
 }
 
