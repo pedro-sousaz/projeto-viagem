@@ -24,8 +24,14 @@
    /* border: 1px dotted rgba(0, 0, 0, 0.425);*/
     display: flex;
     flex-flow: row nowrap;
-    align-items: center;
+    align-items: center;   
     height: 60px;
+
+}
+
+#que-um{
+    display: flex;
+    align-items: center;
 }
 
 .item{
@@ -67,7 +73,7 @@
 .container-dois{
     /*border: 1px dotted rgba(0, 0, 0, 0.425);*/
     display: flex;
-    width: 100px;
+    width: 100vw;
     height: 50px;
     flex-flow: row nowrap;
     align-items: center;
@@ -115,12 +121,12 @@
 .container-quatro{
     /*border: 1px dotted rgba(0, 0, 0, 0.425);*/
     display: flex;
-    width: 100px;
+    width: 100vw;
     height: 50px;
     flex-flow: row nowrap;
     align-items: center;
     background-color: rgb(0, 0, 0);
-    flex: 1 1 10px;
+    flex: 1 1;
 }
 
 .item-quatro{
