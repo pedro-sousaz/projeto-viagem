@@ -139,17 +139,10 @@
 
 }
 
-#car{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 #logo-quatro{
     display: none;
-    text-align: center;
-    justify-content: center;
-    flex-flow: nowrap;
     align-self: center;
     float: right;
     font-size: 1.6em;
