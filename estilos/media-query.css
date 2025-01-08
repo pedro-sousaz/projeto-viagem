@@ -158,4 +158,13 @@
 
         text-align: center;
     }
+
+   #ifrom, #ito{
+    width: 500px;
+    }
+
+    #uform{
+        text-align: center;
+    }
 }
+
