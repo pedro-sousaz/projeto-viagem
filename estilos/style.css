@@ -140,7 +140,6 @@
 }
 
 
-
 #logo-quatro{
     display: none;
     align-self: center;
@@ -215,19 +214,17 @@ form > input[type=submit] {
 .imagens{
     display: flex;
     margin-top: 15px;
-    width: 100vw;
     margin: auto;
     flex-flow: row wrap;
     justify-content: space-evenly;
+    overflow: hidden;
 }
 
 .image{
     margin: auto;
     position: relative;
     margin-top: 10px;
-    display: flex;
-    width: 100vw;
-    overflow: hidden;
+    display: block;
 }
 
 .image p{

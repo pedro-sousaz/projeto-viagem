@@ -6,61 +6,59 @@
     <title>Logo</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
-    <link rel="stylesheet" href="estilos/media-query-um.css" media="screen and (min-width: 768px) and (max-width: 1366px)">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" >
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=travel" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <section class="container-um">
-        <header>
-            <div class="container">
-                <div class="item">
-                    <i class="material-icons" id="loca">location_on</i>
-                    <p id="logo">Pacotes de Viagens</p>
-                </div>
-                <i class="material-icons" id="search">search</i>
+    <header>
+        <div class="container">            
+            <div class="item">
+                <i class="material-icons" id="loca">location_on</i>
+                <p id="logo">Pacotes de Viagens</p>
             </div>
-            <div class="container-pai">
-                <div class="container-dois">
-                    <div class="item-dois">
-                        <i class="material-symbols-outlined" id="plane">travel</i>
-                        <p id="logo-dois">Voo</p>
-                    </div>
-                </div>
-                <div class="container-tres">
-                    <div class="item-tres">
-                        <i class="material-icons" id="cama">hotel</i>
-                        <p id="logo-tres">Hotel</p>
-                    </div>
-                </div>
-                <div class="container-quatro">
-                    <div class="item-quatro">
-                        <i class="material-icons" id="car">directions_car</i>
-                        <p id="logo-quatro">Aluguel</p>
-                    </div>
+            <i class="material-icons" id="search">search</i>
+        </div>
+        <div class="container-pai">
+            <div class="container-dois">
+                <div class="item-dois">
+                    <i class="material-symbols-outlined" id="plane">travel</i>
+                    <p id="logo-dois">Voo</p>
                 </div>
             </div>
-        </header>
-        <main>
-            <h1>Viaje pelo mundo conosco</h1>
-            <form action="cadastro.php" method="post">
-                <label for="ifrom">De</label>
-                <br>
-                <input type="text" name="from" id="ifrom" required placeholder="Partindo de" maxlength="20">
-                <br>
-                <label for="ito">Para</label>
-                <br>
-                <input type="text" name="to" id="ito" required placeholder="Partindo para" maxlength="20">
-                <br>
-                <input type="submit" value="Pesquise e encontre datas">
-            </form>
-    </section>
+            <div class="container-tres">
+                <div class="item-tres">
+                    <i class="material-icons" id="cama">hotel</i>
+                    <p id="logo-tres">Hotel</p>
+                </div>
+            </div>
+            <div class="container-quatro">
+                <div class="item-quatro">
+                    <i class="material-icons" id="car">directions_car</i>
+                    <p id="logo-quatro">Aluguel</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1>Viaje pelo mundo conosco</h1>
+        <form action="cadastro.php" method="post">
+            <label for="ifrom">De</label>
+            <br>
+
+            <input type="text" name="from" id="ifrom" required placeholder="Partindo de" maxlength="20">
+            <br>
+            <label for="ito">Para</label> 
+            <br>
+            <input type="text" name="to" id="ito" required placeholder="Partindo para" maxlength="20">
+            <br>
+            <input type="submit" value="Pesquise e encontre datas">
+        </form>
         <h1>Boas ofertas agora</h1>
         <p>
             Desconto de até <strong>50%.</strong>
         </p>
-        <div class="imagens">
+        <section class="imagens">
             <div class="image">
                 <img src="imagens/Sem Título-1.png" alt="">
                 <p>Cinque Terre</p>
@@ -81,7 +79,7 @@
                 <img src="imagens/Sem Título-5.png" alt="">
                 <p>Paris</p>
             </div>
-        </div>
+        </section>
         <h1>Explore a natureza</h1>
         <p id="travel">Viaje conosco e veja a natureza no seu melhor.</p>
         <div id="ocean"><img src="imagens/Sem Título-6.png" alt=""></div>
