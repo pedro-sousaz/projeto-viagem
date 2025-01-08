@@ -404,3 +404,9 @@ form > input[type=submit] {
     background-color: rgb(138, 138, 138);
 }
 
+footer{
+    text-align: center;
+    background-color: #f38981;
+    color: white;
+    padding: 10px 0px;
+}
