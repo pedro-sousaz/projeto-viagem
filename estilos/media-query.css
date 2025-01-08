@@ -142,4 +142,20 @@
         margin-top: 10px;
         display: block;
     }
+
+    main h1, p{
+        margin: auto;
+        text-align: center;
+    }
+
+    .botao{
+        display: block;
+        margin: auto;
+    }
+
+    #inform{
+        display: block;
+
+        text-align: center;
+    }
 }
